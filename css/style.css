@@ -1,0 +1,45 @@
+body {
+  background-color: #373737;
+}
+
+.header {
+  /*font-family: 'Cabin Sketch', cursive;*/
+  /*font-family: 'Fredericka the Great', cursive;*/
+  /*font-family: 'Averia Serif Libre', cursive;*/
+  font-family: 'Pompiere', cursive;
+  color: #c0b283;
+  font-size: 48px;
+  /*text-align: center;*/
+  padding: 20px 0;
+}
+
+.bio {
+  /*font-family: 'Averia Serif Libre', cursive;*/
+  font-family: 'Pompiere', cursive;
+  /*color: #dcd0c0;*/
+  color: #c0b283;
+  font-size: 28px;
+  /*text-align: center;*/
+}
+
+.icons {
+  list-style: none;
+  display: inline;
+  color: #dcd0c0;
+  font-family: 'Pompiere', cursive;
+  font-size: 32px;
+  padding: 10px;
+}
+
+.iconImages {
+  width: 40px;
+}
+
+.center {
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation {
+  padding-top: 20px;
+}
