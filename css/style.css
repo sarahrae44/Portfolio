@@ -35,11 +35,10 @@ body {
   /*font-family: 'Fredericka the Great', cursive;*/
   /*font-family: 'Averia Serif Libre', cursive;*/
   font-family: 'Pompiere', cursive;
-  text-align: center;
   color: #c0b283;
   font-size: 4em;
   /*text-align: center;*/
-  padding: .5em 4em .2em 4em;
+  /*padding: .5em 4em .2em 4em;*/
 }
 
 .bio {
@@ -150,6 +149,10 @@ a {
 
 .phone {
   padding-top: 0.5em;
+}
+
+.phone a {
+  color: #dcd0c0;
 }
 /*.github {
   padding-right: 10px;
