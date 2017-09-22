@@ -1,3 +1,31 @@
+/*@media (max-width: 384px) {
+  .portfolioImgMobile {
+    width: 200px;
+  }
+ }*/
+ /*// Small devices (landscape phones, 576px and up)*/
+/*@media (min-width: 576px) {
+  .portfolioImg {
+    width: 200px;
+  }
+ }*/
+
+/*// Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) {
+    portfolioImg {
+      width: 200px;
+    }
+  }*/
+/*// Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) {
+  portfolioImg {
+    width: 200px;
+  }
+}*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/
+
 body {
   background-color: #373737;
 }
@@ -7,10 +35,11 @@ body {
   /*font-family: 'Fredericka the Great', cursive;*/
   /*font-family: 'Averia Serif Libre', cursive;*/
   font-family: 'Pompiere', cursive;
+  text-align: center;
   color: #c0b283;
-  font-size: 48px;
+  font-size: 4em;
   /*text-align: center;*/
-  padding: 20px 0;
+  padding: .5em 4em .2em 4em;
 }
 
 .bio {
@@ -18,17 +47,44 @@ body {
   font-family: 'Pompiere', cursive;
   /*color: #dcd0c0;*/
   color: #c0b283;
-  font-size: 28px;
-  /*text-align: center;*/
+  font-size: 2.4em;
+  line-height: 1.8em;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.spacer {
+  padding: 20px;
+}
+
+.mainCategories {
+  background-color: rgba(220, 208, 192, 0.6);
+  /*display: inline-block;*/
+  /*padding: 100px;*/
+  margin-bottom: 40px;
+}
+
+.portfolioImageSide {
+  padding: 60px 0;
+  z-index: -1;
+  text-align: center;
+}
+
+.portfolioTextSide {
+  /*padding: 150px 0;*/
+  z-index: -1;
+  text-align: center;
 }
 
 .icons {
-  list-style: none;
-  display: inline;
+  /*list-style: none;*/
+  /*display: inline;*/
   color: #dcd0c0;
   font-family: 'Pompiere', cursive;
   font-size: 32px;
-  padding: 10px;
+  padding: 0 0.3em 0.5em 0.3em;
 }
 
 .iconImages {
@@ -38,8 +94,63 @@ body {
 .center {
   display: flex;
   margin: 0 auto;
+  text-align: center;
 }
 
 .navigation {
   padding-top: 20px;
+  text-align: center;
+  /*padding-right: 20px;*/
 }
+
+a {
+  color: #373737;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume a {
+  color: #dcd0c0;
+  font-size: 1.2em;
+}
+
+.portfolioBg {
+  background-color: #dcd0c0;
+  /*opacity: 0.5;*/
+}
+
+.portfolioDesc {
+  font-family: 'Pompiere', cursive;
+  font-size: 2em;
+  color: ##373737;
+  padding-bottom: 20px;
+}
+
+.portfolioDescLink {
+  font-family: 'Pompiere', cursive;
+  font-size: 3em;
+  color: ##373737;
+}
+
+.portfolioImg {
+  width: 360px;
+  box-shadow: 10px 10px 5px #373737;
+}
+
+.portfolioImg:hover {
+    position:relative;
+    display:block;
+    top:-20px;
+    left:60px;
+    width:400px;
+    height:auto;
+}
+
+.phone {
+  padding-top: 0.5em;
+}
+/*.github {
+  padding-right: 10px;
+}*/
