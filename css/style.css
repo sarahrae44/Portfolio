@@ -138,14 +138,14 @@ a {
   box-shadow: 10px 10px 5px #373737;
 }
 
-.portfolioImg:hover {
+/*.portfolioImg:hover {
     position:relative;
     display:block;
     top:-20px;
     left:60px;
     width:400px;
     height:auto;
-}
+}*/
 
 .phone {
   padding-top: 0.5em;
